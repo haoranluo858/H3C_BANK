@@ -14,7 +14,7 @@ class MainApp:
         self.root.title("题库选择")
         self.root.geometry("600x400")
         self.root.configure(bg="#E6F7FF")
-        self.current_version = "1.2"  # 当前版本号
+        self.current_version = "1.3"  # 当前版本号
 
         self.setup_ui()
         self.check_for_updates()
