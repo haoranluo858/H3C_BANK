@@ -75,7 +75,7 @@ class MainApp:
     def check_for_updates(self):
         """检查更新"""
         try:
-            version_info_url = "https://h3cbank.pages.dev/version.json"
+            version_info_url = "https://h3c-bank.pages.dev/version.json"
             response = requests.get(version_info_url, timeout=10)
             response.raise_for_status()
 
