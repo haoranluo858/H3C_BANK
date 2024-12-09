@@ -2,18 +2,19 @@
 
 ## Introduction
 
-This update fixes the bug related to the display of the answer sheet and adds an automatic update feature.
+Version 1.3 Update: This update fixes a bug with the display of the answer sheet and adds an automatic update feature.  
+Version 1.4 Update: This update adds a mock exam feature, and the exam review is under development. The main interface GUI has been optimized.
 
 ## Usage Instructions
 
 Click `main.exe` to start.
 
-To import the question bank: place the `.json` files into the `bank` folder.
+How to import the question bank: Place the question bank with a `.json` extension into the `bank` folder.
 
-This program is open source, and the code is in the `main` folder. I hope to receive guidance from experienced developers.
+This program is open source, and the code is in the `main` file. I hope to receive guidance from experts.
 
-This is my first software project. Although it is a practice project, the version is **1.1 Beta**, and there are many bugs.
+This is my first software project. Although it is a practice version, it is **Version 1.4 Beta**, and there are many bugs.
 
 More practical features will be added in the future.
 
-For feedback, please add Q 1960349823.
+Add QQ 1960349823 to provide feedback on issues.

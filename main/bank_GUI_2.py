@@ -26,7 +26,7 @@ class QuizApp:
 
         # 设置窗口标题和大小
         self.root.title("答题程序")
-        self.root.geometry("1000x600")
+        self.root.geometry("1200x800")
         self.root.configure(bg="#E6F7FF")  # 更柔和的背景颜色
 
         # 创建导航栏框架
@@ -56,22 +56,28 @@ class QuizApp:
         self.main_frame.pack(side="left", fill="both", expand=True, padx=20, pady=10)
 
         # 上部分：题目显示区域
-        self.question_frame = tk.Frame(self.main_frame, bg="#E6F7FF")
+        self.question_frame = tk.Frame(self.main_frame, bg="white")
         self.question_frame.pack(fill="both", expand=True)
 
-        self.question_canvas = tk.Canvas(self.question_frame, bg="#FFFFFF", highlightthickness=0)
+        self.question_canvas = tk.Canvas(self.question_frame, bg="white", highlightthickness=0)
         self.question_canvas.pack(side="left", fill="both", expand=True)
 
-        self.question_scrollbar = tk.Scrollbar(self.question_frame, orient="vertical", command=self.question_canvas.yview)
-        self.question_scrollbar.pack(side="right", fill="y")
+        # 添加水平滚动条
+        self.question_scrollbar_x = tk.Scrollbar(self.question_frame, orient="horizontal", command=self.question_canvas.xview)
+        self.question_scrollbar_x.pack(side="bottom", fill="x")
 
-        self.question_inner_frame = tk.Frame(self.question_canvas, bg="#E6F7FF")
+        self.question_canvas.configure(xscrollcommand=self.question_scrollbar_x.set)
+
+        self.question_inner_frame = tk.Frame(self.question_canvas, bg="white")
         self.question_canvas.create_window((0, 0), window=self.question_inner_frame, anchor="nw")
         self.question_inner_frame.bind("<Configure>", lambda e: self.question_canvas.configure(scrollregion=self.question_canvas.bbox("all")))
 
-        self.question_label = tk.Label(self.question_inner_frame, text="", wraplength=900, font=("楷体", 16), justify="left", bg="#E6F7FF", fg="#333333")
+        self.question_label = tk.Label(self.question_inner_frame, text="", wraplength=900, font=("楷体", 16), justify="left", bg="white", fg="#333333")
         self.question_label.pack(pady=10)
 
+        # 确保右侧答题卡区域不受影响
+        self.right_frame = tk.Frame(self.root, bg="#E6F7FF")
+        self.right_frame.pack(side="right", fill="y", padx=10, pady=10)
         # 中部分：选项显示区域
         self.options_frame = tk.Frame(self.main_frame, bg="#E6F7FF")
         self.options_frame.pack(fill="both", expand=True)

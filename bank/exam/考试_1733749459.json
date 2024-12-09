@@ -1,0 +1,1619 @@
+[
+    {
+        "question": "6.0.0.0/8 Static 60 0 100.1.1.1 GE0/0\n此时路由器收到一个目的地址为6.6.6.6 的数据包，那么______。",
+        "options": {
+            "A": "该数据包将优先匹配路由表中的RIP 路由，因为其掩码最长",
+            "B": "该数据包将优先匹配路由表中RIP 路由，因为其优先级高",
+            "C": "该数据包将优先匹配路由表中的静态路由，因为其花费Cost 小",
+            "D": "该数据包将优先匹配路由表中的静态路由，因为其掩码最短"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "218、下面那个用户可能存在VPN应用需求?",
+        "options": {
+            "A": "某大型网吧,提供高达千北的Intermet接入以及多达台的主机,需要对上网用户进行有效的计费,对用户上网行为进行有效的管理",
+            "B": "大型制造企业,内部建设覆盖整个厂区的局域网,有统一的intemet出口,企业内部已经启动ERP,系统,应用完善,每天有大量的销售人员出差",
+            "C": "大型连锁机构,某品牌汽车4S店,总部设在上海,在全国省会额以上城市都有连锁店面,每天销售数据和财务信息需要向总部汇总",
+            "D": "某省级政府机构,在全省县级以及县级以上分布有专属分支机构,已经通过,线相互连接,正在考虑一种经济有效的方式实现专线线路备份"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "351、H3C 防火墙URL 过滤配置文件中可以设置配置文件的缺省动作县体包括: ABCDE \nA、重置表示通过发送TCP的reset报文从而使TCP连接断开\nB、丢弃",
+        "options": {
+            "A": "重置表示通过发送TCP的reset报文从而使TCP连接断开",
+            "B": "丢弃",
+            "C": "记录日志",
+            "D": "允许",
+            "E": "重定向:把符合特征的报文重定向到指定的Web页面上"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ]
+    },
+    {
+        "question": "90、IKE主模式报文交互 （）次?",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "下面关于H3C 网络设备升级的说法，正确的是______。（多选）",
+        "options": {
+            "A": "使用Xmodem 升级可以达到与FTP 一样的速度",
+            "B": "当使用FTP 升级时，设备可以作为FTP 服务器端或客户端",
+            "C": "在设备无法引导到命令行模式而需要对操作系统软件进行升级时，可以使用Xmodem 和TFTP 方式",
+            "D": "在客户端和服务器之间不便于复杂交互的环境下，可以使用TFTP 进行升级"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "路由器MSR-1 的GE0/0 接口地址为192.168.100.1/24，该接口连接了一台三层交换机，而此三层交换机为客\n户办公网络的多个网段的默认网关所在。MSR-1 通过串口S1/0 连接到Internet。全网已经正常互通，办公网\n用户可以访问Internet。出于安全性考虑，需要禁止客户主机ping MSR-1 的GE0/0 接口，于是在该路由器上\n配置了如下ACL：\nacl number 3008\nrule 0 deny icmp source 192.168.1.0 0.0.0.255\n同时该ACL 被应用在GE0/0 的inbound 方向。发现局域网内192.168.0.0/24 网段的用户依然可以ping 通\nGE0/0 接口地址。根据如上信息可以推测_______。",
+        "options": {
+            "A": "该ACL 没有生效",
+            "B": "该ACL 应用的方向错误",
+            "C": "防火墙默认规则是允许",
+            "D": "对接口GE0/0 执行shutdown 和undo shutdown 命令后，才会实现192.168.0.0/24 网段ping 不通MSR-1"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "196. 以下关于虚拟防火墙的描述，错误的是哪几项？",
+        "options": {
+            "A": "虚拟化内核系统集成了分布式双栈虚拟防火墙",
+            "B": "支持针对 HTTP､HTTPS､DNS､SSH 常用应用协议进行安全规则配置",
+            "C": "虚拟防火墙不支持黑白名单的细粒度访问控制",
+            "D": "虚拟防火墙策略全局生效，虚拟机迁移时，安全规则不会跟随迁移"
+        },
+        "correct_answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "89、SSL协议支持的流加密算法包括 （）",
+        "options": {
+            "A": "RC4",
+            "B": "3DES",
+            "C": "DES",
+            "D": "AES"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "194、以下关于GRE协议描述正确的是",
+        "options": {
+            "A": "GRE是对某些网络层协议(如:IP、IPX等)的数据报文进行封装，使这些被封装的数据报文能够在另一种网络协议(如:IP)中传输",
+            "B": "GRE协议是二层协议",
+            "C": "GRE提供了将一种协议的报文封装在另一种协议报文中的机制，是报文能够在异种网络中传输，异种报文传输的隧道称为tunnel",
+            "D": "GRE协议实际上是一种承载协议"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "165. CAS 虚拟磁盘的缓存方式包括哪些？",
+        "options": {
+            "A": "二级物理缓存",
+            "B": "直接读写",
+            "C": "一级物理缓存",
+            "D": "二级虚拟缓存"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "64、如果VPN网络需要运行动态路由协议并提供私网数据加密，通常采用什么技术手段实现?",
+        "options": {
+            "A": "L2TP",
+            "B": "IPsec",
+            "C": "GRE+IPsec",
+            "D": "L2TP+IPsec"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "237、防火墙技术的发展趋势体现在以下哪些方面?",
+        "options": {
+            "A": "虚拟防火墙",
+            "B": "安全技术融合",
+            "C": "多因子身份认证",
+            "D": "精细应用识别"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "IPv6 链路本地地址属于______地址类型。",
+        "options": {
+            "A": "单播",
+            "B": "组播",
+            "C": "广播",
+            "D": "任播"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "以下关于Trunk 端口、链路的描述错误的是______。（多选）",
+        "options": {
+            "A": "Trunk 端口的PVID 值不可以修改",
+            "B": "Trunk 端口发送数据帧时，若数据帧不带有VLAN ID，则对数据帧加上相应的PVID 值作为VLAN ID",
+            "C": "Trunk 链路可以承载带有不同VLAN ID 的数据帧",
+            "D": "在Trunk 链路上传送的数据帧都是带VLAN ID 的"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "300、内网到外网的出接口做了NAT配置，则下面的说法正确的是?",
+        "options": {
+            "A": "动态NAT策略均在接口模式下下发",
+            "B": "内网访问外网流量到达NAT设备(防火墙)先匹配NAT策略，再匹配安全策略",
+            "C": "内湾访问外网流量到达NAT设备(防火墙)先匹配安全策略，再配NAT策略",
+            "D": "PAT模式与NO-PAT模式配置相同，区别在于全局下发配置时，不需要跟NO-PAT"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "149. 以下关于 CAS 特性的描述，正确的是哪几项？",
+        "options": {
+            "A": "网络 USB 重定向支持加密狗等 USB 设备，当业务虚机跨主机迁移后，USB 设备需要重 新插拔配置",
+            "B": "DRX 支持基于 CPU / 内存利用率自动扩展或回收业务虚拟机",
+            "C": "GPU 资源统调度支持 GPU 直通和 GPU 虚拟化，而且支持图形化分配 与释放 GPU 资源",
+            "D": "DRX 支持立即回收和温暖下线两种模式回收虚拟机"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "166、关于H3C防火墙,下列说法正确的是",
+        "options": {
+            "A": "防火墙的安全策略只能在Web页面下配置",
+            "B": "防火境的默认登录IP地址是192.168.0.1",
+            "C": "防火墙通过WEB登录的默认用户名/密码是:admin/admin",
+            "D": "防火墙只能通过命令行方式升级版本"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "198、下列攻击中,属于Dos拒绝服务玫击的是:",
+        "options": {
+            "A": "SYN Flood",
+            "B": "ICMP Floed",
+            "C": "WinNuke攻击",
+            "D": "UDPFlood"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "380、以下关于IKE的说法正确的有",
+        "options": {
+            "A": "只有完善的向前安全性",
+            "B": "可以穿越NAT",
+            "C": "使用UDP 51端口",
+            "D": "使用diffie-Hellma交换"
+        },
+        "correct_answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "44、下面哪个不是VPN技术中用到的加密算法",
+        "options": {
+            "A": "DES",
+            "B": "3DES",
+            "C": "AES",
+            "D": "RIP/RIP2"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "客户的网络连接形如：\nHostA----GE0/0--MSR-1--S1/0-----WAN-----S1/0--MSR-2--GE0/0----HostB\n两台MSR 路由器通过广域网实现互连，目前物理连接已经正常。MSR-1 的接口S1/0 地址为3.3.3.1/30，\nMSR-2 的接口S1/0 地址为3.3.3.2/30，现在在MSR-1 上配置了如下三条静态路由：\nip route-static 192.168.1.0 255.255.255.0 3.3.3.2\nip route-static 192.168.2.0 255.255.255.0 3.3.3.2\nip route-static 192.168.0.0 255.255.255.0 3.3.3.2\n其中192.168.0.0/22 子网是主机HostB 所在的局域网段。那么如下描述哪些是正确的？（多选）",
+        "options": {
+            "A": "这三条路由都会被写入MSR-1 的路由表",
+            "B": "只有第三条路由会被写入MSR-1 的路由表",
+            "C": "这三条路由可以被一条路由ip route-static 192.168.0.0 255.255.252.0 3.3.3.2 代替",
+            "D": "只有第一条路由会被写入MSR-1 的路由表"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "在配置ISDN DCC 的时候，客户在自己的MSR 路由器上配置了如下的dialer-rule：\n[MSR] dialer-rule 1 acl 3000那么关于此配置如下哪些说法正确？（多选）",
+        "options": {
+            "A": "只有匹配ACL 3000 的数据包能触发拨号",
+            "B": "只有匹配ACL 3000 的数据包会被路由器通过拨号链路发送",
+            "C": "没有定义permit 或者deny，配置错误",
+            "D": "正确的配置应为：[MSR] dialer-rule 1 acl 3000 permit"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "TFTP 采用的传输层知名端口号为______。",
+        "options": {
+            "A": "67",
+            "B": "68",
+            "C": "69",
+            "D": "53"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "207、AAA认证主要包括了什么（）",
+        "options": {
+            "A": "计费(Accounting)",
+            "B": "授权(Authonzation)",
+            "C": "认证(Authentization)",
+            "D": "接入(Access)"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "通常情况下，路由器会对长度大于接口MTU 的报文分片。为了检测线路MTU，可以带______参数ping\n目的地址。",
+        "options": {
+            "A": "–a",
+            "B": "–d",
+            "C": "–f",
+            "D": "–c"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "在S3610 交换机上创建包含有端口Ethernet1/0/1，ID 为2 的聚合端口，其正确命令是______。",
+        "options": {
+            "A": "[SWA] interface bridge-aggregation 2",
+            "B": "[SWA] interface bridge-aggregation 2 port Ethernet1/0/1",
+            "C": "[SWA-Ethernet1/0/1] interface bridge-aggregation 2",
+            "D": "[SWA-Ethernet1/0/1] interface bridge-aggregation 2 mode static"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "在一个PPP 连接中，关于NCP 的说法错误的是______。",
+        "options": {
+            "A": "NCP 用于协商验证方式",
+            "B": "NCP 用于协商数据链路上所传输的数据包的格式与类型",
+            "C": "NCP 用来建立、拆除和监控数据链路",
+            "D": "NCP 可以配置不同的网络层协议"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "B 类地址的默认子网掩码是______。",
+        "options": {
+            "A": "255.0.0.0",
+            "B": "255.255.0.0",
+            "C": "255.255.255.0",
+            "D": "以上都不正确"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "在OSI 参考模型中，网络层的功能主要是______。",
+        "options": {
+            "A": "在信道上传输原始的比特流",
+            "B": "确保到达对方的各段信息正确无误",
+            "C": "确定数据包从源端到目的端如何选择路由",
+            "D": "加强物理层数据传输原始比特流的功能，并且进行流量调控"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "234、关于SSL VPN的三种接入方式,下列说法正确的是。",
+        "options": {
+            "A": "WEB方式实现的真正的“免客户端”,主要适合于访问WEB站点",
+            "B": "TCP接入比较适谷使用固定IP地址和端口的TCP应用",
+            "C": "IP接入可以支持任何基于IP协议的网络应用",
+            "D": "Telnet服务器跃可以通过TCP接入又可以通过IP接入"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "259、某公司的组网中，将防火墙作为三层设备，其接口工作在三层模式。以下关于防火墙接口的说法中正确的是?",
+        "options": {
+            "A": "二层模式的防火墙支持安全策略、ASPF状态过滤、攻击防范等功能",
+            "B": "三层模式的防火墙可完成包过滤、NAT、ALG、ASPF、攻击防范等功能，且无需在防火墙上配置路由信息",
+            "C": "防火墙的接口既可以工作在三层模式也可以工作在二层模式，对于接口而言，一次只能选择其中一种模式",
+            "D": "对于防火墙而言，可以同时支持二层模式和三层模式，即一部分接口工作在二层模式，一部分接口工作在三层模式"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "在MSR 路由器上，如果要彻底删除回收站中的某个废弃文件，可以执行______命令。",
+        "options": {
+            "A": "clear trash",
+            "B": "reset recycle-bin",
+            "C": "clear all",
+            "D": "reset trash-bin"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "444、会话管理的内存分配机制是每次分配一块大内存，当这块大内存中的所有会话老化后才会回收这块内存，所以看到会话增减，内存利用率却没有明显增加。",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "17、H3C负载均衡交换机提供了全面的健康检测算法,负载均衡调度算法以及会话保持功能,可以根据应用场景进行灵活的选择,从而达到最优的负载均衡效果,下面关于H3C负载均衡交换机描述不正确的是:",
+        "options": {
+            "A": "负戴均衡调度功能和会话保持功能不能同时启动",
+            "B": "负戴均衡调度功能和会话保持功能不能同时启动",
+            "C": "可以提供基于ICMP，TCP，HTTP，VFTP,QSSL92 DNS等健康检测算法",
+            "D": "可以提供基于轮询,最小连接,最小响应时间,加权方式源/目的地址Hash等负载均衡调度算法"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "64. 以下对于虚拟交换机的说法正确的是",
+        "options": {
+            "A": "如果虚机交换机配置了 “静态链路聚合”，且负载分担模式为 “基本负载 分担”， 则物理交换机上应配置静态聚合",
+            "B": "如果虚机交换机配置了 “静态链路聚合”，且负载分担模式为 “主备负载 分 担”，则物理交换机上不应该配置聚合",
+            "C": "如果虚拟交换机配置了 “动态链路聚合”， 则连接的物理交换机上必须配 置动 态聚合",
+            "D": "如果虚机交换机配置了 “静态链路聚合”，且负载分担模式为 “高级负载分 担”，则物理交换机上不应该配置静态聚合｡"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "某网络连接形如：\nHostA----GE0/0--MSR-1--S1/0---------S1/0--MSR-2--GE0/0----HostB\n两台MSR 路由器MSR1、MSR2 通过各自的S1/0 接口背靠背互连，各自的GigabitEthernet0/0 接口分别连接\n客户端主机HostA 和HostB。通过配置IP 地址和路由目前网络中HostA 可以和HostB 实现互通。如今在\nMSR-2 上增加了如下配置：\nfirewall enable\nacl number 3000\nrule 0 deny tcp destination-port eq telnet\ninterface Serial1/0\nlink-protocol ppp\nip address 1.1.1.2 255.255.255.252\nfirewall packet-filter 3000 inbound\nfirewall packet-filter 3000 outbound\ninterface GigabitEthernet0/0\nip address 10.1.1.1 255.255.255.0\n那么如下哪些说法是正确的？ （多选）",
+        "options": {
+            "A": "后配置的firewall packet-filter 3000 outbound 会取代firewall packet-filter 3000 inbound 命令",
+            "B": "在HostB 上无法成功Telnet 到MSR-1 上",
+            "C": "在HostB 上可以成功Telnet 到MSR-1 上",
+            "D": "最后配置的firewall packet-filter 3000 outbound 不会取代firewall packet-filter 3000 inbound 命令"
+        },
+        "correct_answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "在MSR 路由器上可以为Telnet 用户配置不同的优先级，关于此优先级的说法错误的是______。（多选）",
+        "options": {
+            "A": "0 为访问级",
+            "B": "1 为监控级",
+            "C": "2 为设备级",
+            "D": "3 为管理级"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "164、下面关于H3C ACG的说话正确的有",
+        "options": {
+            "A": "ACG产品支持微信认证，短信认证等功能",
+            "B": "ACG产品支持旁路部署，在系统管理部署方式处将接收流量的接口打钩，并将流量镜像到该接口",
+            "C": "ACG产品不支持VRG功能，因此无法可作为MCE设备和MPLS网络对接",
+            "D": "ACG的DFI主要用来是被应用的静态报文特征，DPI主要用来识别应用的动态流量特征"
+        },
+        "correct_answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "question": "73. CVK 主机重启，\n报错 fence 重启的原因是 TCP disconnected with other nodes，那么原因需要排查",
+        "options": {
+            "A": "迁移网",
+            "B": "存储网",
+            "C": "业务网",
+            "D": "管理网"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "159. CAS 虚拟机的必要虚拟硬件包括哪些？",
+        "options": {
+            "A": "虚拟内存",
+            "B": "虛拟网卡",
+            "C": "虚拟 CPU",
+            "D": "虚拟磁盘"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "334、H3C ACG的带宽管理功能，可以对通过设备的流量实现基于精细化的管理和控制。",
+        "options": {
+            "A": "用户/用户组",
+            "B": "源/目的IP地址",
+            "C": "MAC地址",
+            "D": "服务",
+            "E": "时间",
+            "F": "应用/应用组"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "E",
+            "F"
+        ]
+    },
+    {
+        "question": "在客户的路由器MSR 30 上查看到如下debug 信息：\n*0.87831022 IP/8/debug_icmp:\nICMP Receive: ttl-exceeded(Type=11, Code=0), Src = 3.3.3.1, Dst = 3.3.3.2; Origi\nnal IP header: Pro = 1, Src = 3.3.3.2, Dst = 20.1.1.1, First 8 bytes = 080081FF\nABD40004\n*0.87833017 IP/8/debug_icmp:\nICMP Receive: ttl-exceeded(Type=11, Code=0), Src = 3.3.3.1, Dst = 3.3.3.2; Origi\nnal IP header: Pro = 1, Src = 3.3.3.2, Dst = 20.1.1.1, First 8 bytes = 08007A2E\nABD40005\n据此可以推测______。",
+        "options": {
+            "A": "该ICMP 报文的目的地址为3.3.3.2",
+            "B": "该ICMP 报文的目的地址为20.1.1.1",
+            "C": "可能有路由环路，因为信息显示ttl-exceeded",
+            "D": "在IP 地址为3.3.3.2 的路由器上执行了命令ping 20.1.1.1"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "136、下列关于流与会话的说法那个是正确的?",
+        "options": {
+            "A": "防火墙对组播或者广播报文同样建立会话",
+            "B": "会话是一个单方向的概念，根据报文所携带的三元组或者五元组唯一标识",
+            "C": "流是一个双向的概念，一个流通常关联两个方向的的会话",
+            "D": "对于FTP协议，数据通道会话老化之前控制通道会话不能老化"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "141. virsh start/shutdown <vm _name>命令的作用是什么？",
+        "options": {
+            "A": "在 CVK 主机后台启动 / 关闭共享存储",
+            "B": "在 CVK 主机后台暂停虚拟机",
+            "C": "在 CVK 主机后台启动 / 关闭虚拟机",
+            "D": "在 CVK 主机后台将虚拟机断电关机"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "430、配置安全策略后两个安全域之间才能互相访问。",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "DHCP 客户端收到DHCP ACK 报文后如果发现自己即将使用的IP 地址已经存在于网络中，那么它将向\nDHCP 服务器发送什么报文？",
+        "options": {
+            "A": "DHCP Request",
+            "B": "DHCP Release",
+            "C": "DHCP Inform",
+            "D": "DHCP Decline"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "401、下列算法中，属于数字签名算法的是（） ",
+        "options": {
+            "A": "SHA-1",
+            "B": "DSA",
+            "C": "RSA",
+            "D": "MD5"
+        },
+        "correct_answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "160、常见的内网用户行为监管应包括",
+        "options": {
+            "A": "内网Web应用的审计",
+            "B": "内网网络共享应用的审计",
+            "C": "内网Q0MSN应用的审计",
+            "D": "内网FTP应用的市计"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "329、以下关于IKE协商的说法正确的有?",
+        "options": {
+            "A": "IKE野蛮模式使用三条消息来提供完整性保护",
+            "B": "IKE协商分为两个阶段，阶段一的交换模式为快速模式，阶段二的交换模式为主模式和野蛮模式",
+            "C": "新组模式用于协商新的DH交换组，信息交换用于通告SA的状态和消息",
+            "D": "IKE主模式总共有三个步骤，六条消息"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "25. 以下关于虚拟机生命周期的描述正确的是",
+        "options": {
+            "A": "虚拟机未安装 CAS Tools，执行关闭操作时有可能出现虚拟机无法关闭的问 题",
+            "B": "虚拟机正常工作时， 执行断电操作有可能导致虚拟机操作系统和应用数据丢 失，需要谨慎使用",
+            "C": "虚拟机正常运行过程中，如果镜像文件所在存储池空间满，虚拟机会变为暂 停 状态",
+            "D": "虚拟机移入回收站后，在保存期内可以手动还原，超过保存期则会被自动 删 除"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "5. 以下哪些选项是衡量存储产品性能的指标:",
+        "options": {
+            "A": "带宽",
+            "B": "IOPS",
+            "C": "最大支持服务器量",
+            "D": "最多支持 lun 数量"
+        },
+        "correct_answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "question": "24、下列关于L2TP的说法正确的有:",
+        "options": {
+            "A": "用户的远程系统可以通过一个远程接入方式接入到运营商的 LAC中,由LAC对LNS发起L2tp隧道并建立会话",
+            "B": "当用户的远程系统使用VPDN客户端软件对LNS发起L2tp隧道并建立会话时,隧道直接建立在客户端和LNS之间此时L2tp系统不存在LAC",
+            "C": "L2tp隧道存在于一对LAC与LNS之间。一个隧道内包括一个控制连接( Control Connection) 一个隧道内只支持一个会话",
+            "D": "L2tp是面问连接的,可以为其传送的信息提供一定的可靠性。LAC维护程系统对其发起的呼叫状态和信息。一对LAC和LNS也同时维护在两者之间的相应信息和状态"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "269、H3C安全设备支持的硬件虚拟化的技术有。",
+        "options": {
+            "A": "VRF技术",
+            "B": "Context技术",
+            "C": "SCF技术",
+            "D": "SDN技术"
+        },
+        "correct_answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "question": "SPX 属于OSI 参考模型的______。",
+        "options": {
+            "A": "网络层",
+            "B": "传输层",
+            "C": "会话层",
+            "D": "表示层"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "RIP 路由协议有一个定时器，该定时器定义了一条路由从度量值变为16 开始，直到它从路由表里被删除所\n经过的时间，那么______。",
+        "options": {
+            "A": "该定时器为Timeout 定时器",
+            "B": "该定时器为Garbage-Collect 定时器",
+            "C": "该定时器在MSR 路由器上默认为120s",
+            "D": "该定时器在MSR 路由器上默认为180s"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "124. 按种类区分，硬盘分为以下哪几类？",
+        "options": {
+            "A": "SAS 硬盘",
+            "B": "FC 硬盘",
+            "C": "SATA 硬盘",
+            "D": "SSD 硬盘"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "481、NAT ALG技术可以解决所有多通道应用之间端到端的通信问题。以上说法是否正确。",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "源主机ping 目的设备时，如果网络工作正常，则目的设备在接收到该报文后，将会向源主机回应\nICMP______报文。",
+        "options": {
+            "A": "Echo Request",
+            "B": "Echo Reply",
+            "C": "TTL-Exceeded",
+            "D": "Port-Unreachable"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "453、关联表是一个三元组表项，使用IP地址、端口和协议作为Key，MatchMode字段表示报文匹配关联表的Local Key还是Global Key。",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "在如图所示的交换网络中，所有交换机都启用了STP 协议。根据图中的信息来看，哪台交换机会被选为根\n桥？",
+        "options": {
+            "A": "SWA",
+            "B": "SWB",
+            "C": "SWC",
+            "D": "SWD"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "299、以下哪些配置可以实现SSH用的管理员权限?",
+        "options": {
+            "A": "[Device-luser-network-test] service-typessh",
+            "B": "[Device] local-user test class network",
+            "C": "[Device-luser-manage-test]service-type ssh",
+            "D": "[Device] local-user test class manage"
+        },
+        "correct_answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "firewall packet-filter 3000 outbound\n那么______。",
+        "options": {
+            "A": "办公网用户发起的到Internet 的ICMP 报文被该路由器禁止通过",
+            "B": "办公网用户发起的到达该路由器的FTP 流量可以正常通过",
+            "C": "办公网用户发起的到达该路由器GE0/0 的Telnet 报文可以正常通过",
+            "D": "办公网用户发起的到Internet 的FTP 流量被允许通过该路由器，其他所有报文都被禁止通过该路由器"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "30、编号 3001的ACL对应的类型是",
+        "options": {
+            "A": "二层ACL",
+            "B": "基本ACL",
+            "C": "高级ACL",
+            "D": "七层ACL"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "112. 关于链路聚合的描述，错误的是哪一项？",
+        "options": {
+            "A": "链路聚合是把多条物理链路聚合在一起，形成一条逻辑链路",
+            "B": "链路聚合分为静态链路聚合和动态链路聚合",
+            "C": "链路聚合可以增加链路网络带宽，增加链路可靠性",
+            "D": "如果是服务器配合交换机使用，只需要在服务器侧配置动态链路聚合，交换 机侧配置静态链路 聚合，两者也可以协商成功"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "311、IPsec的优点有",
+        "options": {
+            "A": "数据完整性( Data intergrity)",
+            "B": "数据机密性(Conidentiality)",
+            "C": "身份验证( Data Authentication )",
+            "D": "抗DDos(Distributed Deny of Service)"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "两台MSR 路由器MSR-1、MSR-2 通过各自的S1/0 接口背靠背互连，各自的GigabitEthernet0/0 接口\n分别连接客户端主机HostA 和HostB：\nHostA----GE0/0--MSR-1--S1/0---------S1/0--MSR-2--GE0/0----HostB\n通过配置IP 地址和路由目前网络中HostA 可以和HostB 实现互通，如今在路由器MSR-1 上增加如下ACL\n配置：\nacl number 3000\nrule 0 deny icmp icmp-type echo\ninterface GigabitEthernet0/0\nip address 192.168.0.1 255.255.255.0\nfirewall packet-filter 3000 inbound\n那么如下说法哪些是正确的？ （多选题）",
+        "options": {
+            "A": "在HostA 上将ping 不通自己的网关地址，即MSR-1 上的GE0/0 的接口地址",
+            "B": "在HostA 上ping 不通HostB",
+            "C": "在HostB 上能ping 通HostA",
+            "D": "在MSR-1 上能ping 通HostB"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "189. 以下哪几种 RAID 磁盘空间利用率因定为 50%?",
+        "options": {
+            "A": "RAID1",
+            "B": "RAID6",
+            "C": "RAID10",
+            "D": "RAID5"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "如下关于MSR 路由表的描述，哪些是正确的？ （多选）",
+        "options": {
+            "A": "如果到同一目的网段的路由有多个来源，那么只把Preference（优先级）值最大的路由写入路由表",
+            "B": "如果到同一目的网段的路由有多个来源，那么只把Metric（度量）值最大的路由写入路由表",
+            "C": "如果到同一目的网段的路由有多个来源，那么只把Preference（优先级）值最小的路由写入路由表",
+            "D": "如果到同一目的网段的路由有多个来源，那么只把Metric（度量）值最小的路由写入路由表"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "XYZ 公司深圳分公司的路由器MSR1 的Serial0/0 接口通过广域网线路直接连接到ISP 路由器MSR2 的\nSerial0/0 接口，MSR2 的Serial0/0 接口地址为100.126.12.1。XYZ 公司通过这个ISP 可以访问北京总公司\n的网站202.102.100.2。在MSR1 上没有运行路由协议，仅配置了如下一条静态路由：\nip route-static 202.102.100.2 24 100.126.12.1\n那么关于这条路由以及MSR1 路由表的描述哪些是正确的？ （多选）",
+        "options": {
+            "A": "如果100.126.12.1 所在网段地址不可达，那么该路由不会被写入路由表",
+            "B": "只要该路由对应的出接口物理状态up，该路由就会被写入路由表",
+            "C": "如果该路由所对应的出接口断掉，那么该路由一定会被从路由表中删除",
+            "D": "这是一条优先级为60、Cost 为0 的静态路由"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "188. 在安装 H3C CAS 虚拟化平台时，以下哪些分区是必须划分的？",
+        "options": {
+            "A": "/boot/efi",
+            "B": "/vms",
+            "C": "/var/log",
+            "D": "/boot"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "290、经过IPSec封装后的报文格式如下图所示，参与验证算法生成验证字段的数据报文有哪些?",
+        "options": {
+            "A": "AH头",
+            "B": "新报文头",
+            "C": "原始报文",
+            "D": "共享秘钥"
+        },
+        "correct_answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "如图所示网络环境中，两台路由器以串口背靠背相连，要设置互连链路的速率为2Mbps，下面说法正确的是\n______。",
+        "options": {
+            "A": "需要确定接口类型以及线缆满足V.24 规程",
+            "B": "在RTA 的同步口上使用baudrate 2048000 命令配置",
+            "C": "在RTB 的同步口上使用baudrate 2048000 命令配置",
+            "D": "在RTB 的同步口上使用virtual-baudrate 2048000 命令配置"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "89. 关于云计算服务模式的解释正确的有",
+        "options": {
+            "A": "IaaS 是基础架构即服务",
+            "B": "PaaS 是软件即服务",
+            "C": "SaaS 是平台即服务",
+            "D": "以上说法均不正确"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "2. 以下关于链路聚合，说法正确的有:",
+        "options": {
+            "A": "在同一聚合组中，所有的选中端口不一定需要具有相同的操作 key",
+            "B": "聚合组与聚合接口的编号是相同的",
+            "C": "聚合组中，即使某成员端口与对应聚合接口的属性配置和协议配置存在不同，都不会影响该成员端口成为选中端口",
+            "D": "链路聚合可以提供链路冗余性，又可以提高链路的带宽"
+        },
+        "correct_answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "65、以下哪项配置可以实现console用户的不认证?",
+        "options": {
+            "A": "[Device-line-console0] authentication-mode local",
+            "B": "[Device-line-console0] authentication-mode scheme",
+            "C": "[Device-line-console0] authentication-mode none",
+            "D": "[Device-line-vty0-63] authentication-mode scheme"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "419、证书注册中心在收到用户的证书注册请求后,需要对注册用户进行验证,其验证的主要信息有",
+        "options": {
+            "A": "确认注册用户有申请证书的权利",
+            "B": "确认注册用户拥有和证书请求相对应的私钥",
+            "C": "确认证书用户的身份信息正确",
+            "D": "确认注册用户是否曾注册过证书"
+        },
+        "correct_answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "363、下面有关GRE和GRE VPN的说法正确的是?",
+        "options": {
+            "A": "物理接口具有载荷协议的地址和相关配置",
+            "B": "GRE是一种在任何协议上承载任何一种其他协议的封装协议",
+            "C": "GRE VPN采用隧道技术。两个站点的路由器之间通过公共网络彼此的物理接口并依赖物理接口进行实际通信，\n两个路由器上分别建立一个虚拟接口--tunnel接口，\n两个tunnel接口之间建立点对点的虚拟连接就形成一条跨越公共网络的隧道",
+            "D": "tunnel接口具有承载协议的地址和相关配置"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "295、利用Sste Reset技术可以防范SYN Food攻击,关于技术原理的描述，以下说法真确的是",
+        "options": {
+            "A": "一般而言，应用服务器不会主动对客户端发起恶意连接，因此服务器响应客户端的报文可以不需要经过防火墙的检查。\n防火墙仅需要对客户端发往应用服务器的报文进行实时监控。服务器响应客户端的报文可以根据实际需要选择是否经过防火墙，\n因此Safe Reset能够支持更灵活的组网方式",
+            "B": "客户端收到SYN/ACK后.按照协议规定向服务器回应RST消息。防火墙中途截取这个消息后，\n提取消息中的序列号。并对该序列号进行Cookie校验。成功通过校验的连接被认为是可信的连接，\n防火墙会分配TCB资源记录此连接的描述信息，而不可信连接的后续报文会被防火墙丢弃。",
+            "C": "由于防火墙仅通过对客户端向服务器首次发起连接的报文进行认证，\n就能够完成对客户端到服务器的连接检验而服务器向客户端回应的报文即使不经过防火墙也不会影响正常的业务处理，\n因此Safe Reset技术也称为单向代理技术",
+            "D": "客户端发送的SYN消息经过防火墙时，防火墙截取该消息，并模拟服务器向客户端回应SYN/ACK消息其中\n，SYN/ACK消息中的ACK序列号与客户端期望的值一致，同时携带Cookie值，\n此Cookie值是对加密索引与本次连接的客户端信息(包括P地址、端口号)进行加空运算的结果。"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "",
+        "options": {
+            "A": "应用程序解压B. 应用程序加载C. 启动bootrom D. 内存检测"
+        },
+        "correct_answer": [
+            "D",
+            "C",
+            "A",
+            "B"
+        ]
+    },
+    {
+        "question": "273、下列关于NAT穿越功能说法正确的是?",
+        "options": {
+            "A": "避免了NAT网关对IPsec报文进行修改",
+            "B": "配置NAT穿越功能后，AH可以穿越NAT",
+            "C": "删去了IKE协商过程中对UDP端口号的验证过程",
+            "D": "实现了对VPN隧道中NAT网关设备的发现功能"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "443、防火墙的策略一般是应用在安全域之间的,而IPS/AV策略一般应用在某个段上。",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "435、在一个 ISP 域中，RADIUS 授权方法和 RADIUS 认证方法无需引用相同的RADIUS方案，也可生效。",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "103. 关于 UIS Manager 说法正确的有:",
+        "options": {
+            "A": "UIS Manager 可以嵌入刀片交换机管理 UIS8000 刀框",
+            "B": "UIS Manager 可以用于管理 M8300 本身",
+            "C": "UIS Manager 可以管理 UIS Pack 机柜",
+            "D": "UIS Manager 可以嵌入 TOR 交换机管理机架服务器"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "204、下列关于防火墙性能衡量指标的说法错误的是?",
+        "options": {
+            "A": "时延越高，防火墙处理速度越快",
+            "B": "吞吐是需要对不同大小的数据包、不同方向的流量等进行测试，最终取平均值",
+            "C": "并发连接数越小，一段时间内能够允许同时上网的用户就越多",
+            "D": "新建连接数越小，抗攻击的能力也越强"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "303、以下技术是设计用于解决IPV4地址短缺的是",
+        "options": {
+            "A": "CIDR",
+            "B": "MPLS",
+            "C": "VLSM",
+            "D": "NAT"
+        },
+        "correct_answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "178. 部署 H3C CAS 虚拟化平台时，以下关于业务服务器要求的描述，正确的是哪 几项？",
+        "options": {
+            "A": "无外接存储时，建议配置至少 4 块网卡，分别用于管理网络 (2 块) 和业务网 络 (2 块)",
+            "B": "CPU 必须支持硬件辅助虚拟化技术，如 nte-VT 或 AMD-V｡采用同 — 厂商､同一产品族和 同一代处理器的服务器组成的集群，可以获得最好的迁移 兼容能力",
+            "C": "内存资源往往比 CPU 资源更会成为潜在的性能瓶颈，尽可能将服务器配置 到最大内存，采 用最大容量的内存条",
+            "D": "建议配置双冗余电源以尽量避免服务器电源本身的故障造成虚拟机业务中 断"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "286、H3C SecPath防火墙的会话包含以下哪些信息?",
+        "options": {
+            "A": "会话发起方和响应方IP地址及端口",
+            "B": "会话的创建时间",
+            "C": "会话的老化时间",
+            "D": "会话当前所处的状态"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "34. 关于虚拟电子流管理的说法正确的是",
+        "options": {
+            "A": "电子流由组织用户发起申请",
+            "B": "只有组织管理员才可以审批",
+            "C": "如果一个组织没有可用存储空间，那么该组织内的用户就不能成功申请该 虚 拟机组",
+            "D": "用户只能使用虚拟机模板来申请虚拟机"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "465、IPsec IKE野蛮模式主要解决因发起者源地址不确定而无法选择预共享秘钥问题",
+        "options": {
+            "A": "正确",
+            "B": "错误"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "109、如何防范Land攻击?",
+        "options": {
+            "A": "检查TCP报文，如果报文的目的端口号为139，且TCP的紧急指针标志被置位，\n而且携带了紧急数据区则根据用户配置选择对报文进行转发或拒绝接收，并将该攻击记录到日志",
+            "B": "检查ICMP应答请求报文的目的地址是否为子网广播地址或子网的网络地址，\n如果是，则根据用户配置选择对报文进行转发或拒绝接收，并将该攻击记录到日志",
+            "C": "检测每一个IP报文的源地址和目标地址，若两者相同，或源地址为环回地址127.0.0.1，\n则根据用户配置选择对报文进行转发或拒绝接收，并将该攻击记录到日志",
+            "D": "检查UDP报文，如果报文的目的端口号为139，且UDP的紧急标志被置位，\n而且携带了紧急数据区，则根据用户配置选择对报文进行转发或拒绝接收，并将该攻击记录到日志"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "141、根据P层协议的不同，以下关于流的说法正确的是?",
+        "options": {
+            "A": "UDP流:通过源IP、源端口、协议、目的P、目的端口五元组唯一标识",
+            "B": "ICMP流:通过源P、目的IP、协议三元组唯一标识",
+            "C": "TCP流:通过源P、源端口、协议、目的IP、目的端口五元组唯一标识",
+            "D": "RAW IP流:不属于上述协议的，通过源P、目的IP、协议三元组唯一标识"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "如果以太网交换机中某个运行STP 的端口不接收或转发数据，接收但不发送BPDU，不进行地址学习，那么\n该端口应该处于______状态。",
+        "options": {
+            "A": "Blocking",
+            "B": "Listening",
+            "C": "Learning",
+            "D": "Forwarding"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "121、ESP报文格式如下图所示,关于ESP描述正确的有，图见121题",
+        "options": {
+            "A": "SPI字段可以唯标识这个数据包的IPSecSA",
+            "B": "ESP协议报文用IP报文协议号51表示",
+            "C": "根据特定加密算法的要求,可以在Padding字段增加填充位",
+            "D": "验证字段(Authentication Data)对于ESP来说是必选字段"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "184、与L2TP VPN相比，SSL VPN具有哪些优点?",
+        "options": {
+            "A": "不需要额外的拨号上网费用",
+            "B": "可以提供对数据的加密，保证数据传输的安全性",
+            "C": "拥有基于应用资源的访问控制策略",
+            "D": "可以提供高细粒度的访问控制"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "某企业网络管理员需要设置一个子网掩码将其负责的C 类网络211.110.10.0 划分为子网，要求每个子网的主\n机数不少于20，请问可以采用多少位的子网掩码进行划分？（多选）",
+        "options": {
+            "A": "28",
+            "B": "27",
+            "C": "26",
+            "D": "29"
+        },
+        "correct_answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "interface Serial0/0.100 p2p\nfr dlci 222\nip address 30.2.2.1 255.255.255.252\n那么据此配置可以推测______。（多选）",
+        "options": {
+            "A": "在MSR-1 上不能ping 通30.2.2.1",
+            "B": "在MSR-1 上可以ping 通30.2.2.1",
+            "C": "两台路由器帧中继子接口之间无法互通，因为没有配置fr map",
+            "D": "两台路由器帧中继子接口之间无法互通，因为他们的子接口号不一致"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "18、以下哪些防火墙不支持SSL VPN功能?",
+        "options": {
+            "A": "F1000-S",
+            "B": "U200-A",
+            "C": "V100-s",
+            "D": "V100-E"
+        },
+        "correct_answer": [
+            "C"
+        ]
+    },
+    {
+        "question": "270、NGFW防火墙从域间策略发展到安全策略，关于这两种访问控制策略说法正确的是?",
+        "options": {
+            "A": "安全策略可以基于用户对报文进行控制，使网络管理更加灵活和可视配置安",
+            "B": "全策略前，必须先对对象策略转换为安全策略",
+            "C": "安全策略功能与包过滤功能不能同时配置",
+            "D": "当安全策略与包过滤策略同时配置时，报文与安全策略匹配成功后，不再进行包过滤处理"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "193. CAS 虚拟机 CPU 的工作模式包括哪些？",
+        "options": {
+            "A": "兼容模式",
+            "B": "高性能模式",
+            "C": "直通模式",
+            "D": "主机匹配模式"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "FTP 数据连接的作用包括______。 （多选）",
+        "options": {
+            "A": "客户机向服务器发送文件",
+            "B": "服务器向客户机发送文件",
+            "C": "服务器向客户机发送文件列表",
+            "D": "服务器向客户机传送告警信息"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "251、关于防火墙系统中缺省域描述正确的是",
+        "options": {
+            "A": "一个ISP域被配置为缺省的ISP域后，将可能被删除，必须首先使用命令undo domain default enable将其修改为非缺省ISP域，然后才可以被删除",
+            "B": "系统缺省存在的system域可以被删除",
+            "C": "系统缺省存在的system域只能被修改，不能被删除",
+            "D": "一个ISP域被配置为缺省的ISP域后，可以直接通过命令undo domain name的方式进行删除"
+        },
+        "correct_answer": [
+            "A",
+            "C"
+        ]
+    },
+    {
+        "question": "134. CAS 虚拟磁盘的总线类型包括哪些？",
+        "options": {
+            "A": "virtio scsi",
+            "B": "IDE",
+            "C": "virtio",
+            "D": "Scsi"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "14、在UDP端口扫描中，对主机端口是否开放的判断依据是",
+        "options": {
+            "A": "根据被扫描主机开放端口返回的信息判断",
+            "B": "根据被扫描主机关闭端口返回的信息判断",
+            "C": "既不根据A也不根据B",
+            "D": "综合考虑A和B的情况进行判断"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "283、当出现大量VPN需求时，可以引导那些产品?",
+        "options": {
+            "A": "SecPath系列防火墙",
+            "B": "SecPath系列VPN",
+            "C": "H3C IPS",
+            "D": "SR系列路由器"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "以下工作于OSI 参考模型数据链路层的设备是______。",
+        "options": {
+            "A": "广域网交换机",
+            "B": "路由器",
+            "C": "中继器",
+            "D": "集线器"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "375、关于SSL VPN组网模式说法正确的是?",
+        "options": {
+            "A": "直连模式组网网关可能成为网络的单点故障源",
+            "B": "旁路模式组网网关的处理能力会限制内网访问外网的性能",
+            "C": "直连模式组网网关可以对访问流量进行全面的控制",
+            "D": "旁路模式组网不能全面的保护网络"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "如果以太网交换机中某个运行STP 的端口不接收或转发数据，接收并发送BPDU，不进行地址学习，那么该\n端口应该处于______状态。",
+        "options": {
+            "A": "Blocking",
+            "B": "Listening",
+            "C": "Learning",
+            "D": "Forwarding"
+        },
+        "correct_answer": [
+            "B"
+        ]
+    },
+    {
+        "question": "418、以下关于防火墙用户说法正确的是",
+        "options": {
+            "A": "管理类用户主要有portal、sslvpn、ppp等",
+            "B": "接入类用户主要是ftp、ssh、telnet、http",
+            "C": "防火墙用户分为管理类和接入类用户",
+            "D": "防火墙的本地用户，是指在本地设备上设置的一组用户属性的集合"
+        },
+        "correct_answer": [
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "397、下列那个选项可以防范smurf攻击?",
+        "options": {
+            "A": "检查ICMP请求报文的目的地址是否为子网地址，是则丢弃",
+            "B": "检查ICMP请求报文的源地址是否为子网地址，是则丢弃",
+            "C": "检查ICMP请求报文的目的地址是否为应播地址，是则丢弃",
+            "D": "检查ICMP请求报文的源地址是否为广播地址，是则丢弃"
+        },
+        "correct_answer": [
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "根据OSI 七层参考模型的定义，_____负责提供流量控制，检验数据传输的正确性，并提供对多种上层协议\n的支持。（多选）",
+        "options": {
+            "A": "应用层",
+            "B": "数据链路层",
+            "C": "表示层",
+            "D": "传输层"
+        },
+        "correct_answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "UDP 协议和TCP 协议头部的共同字段有______。\n（多选）",
+        "options": {
+            "A": "源端口",
+            "B": "目的端口",
+            "C": "流量控制",
+            "D": "源IP 地址"
+        },
+        "correct_answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "question": "根据交换机处理VLAN 数据帧的方式不同，H3C 以太网交换机的端口类型分为______。\n（多选）",
+        "options": {
+            "A": "access 端口",
+            "B": "trunk 端口",
+            "C": "镜像端口",
+            "D": "hybrid 端口"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "414、以下关于RADIUS报文结构中Attribute域说法正确的是",
+        "options": {
+            "A": "Attribute域的长度固定",
+            "B": "Attribute域的长度不固定",
+            "C": "Attribute用于携带专门的认证、授权和计费信息",
+            "D": "Attribute域可包含多个属性，每一个属性都采用(type、length、value)的三元组的结构来表示"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "407、下列关于配置H3C入侵防御特征描述错误的有",
+        "options": {
+            "A": "入侵防御特征的生效状态可以在例外特征中修改",
+            "B": "预定义入侵防御特征的内容能被创建、修改和删除",
+            "C": "自定义特征的内容能被创建、修改和删除",
+            "D": "当入侵防御配置文件中不包含某条入侵防御规则时，可以将此规则设置为规则例外，添加到该入侵防御配置文件中。\n例外特征中动作的优先级不高于配置文件中动作的优先级"
+        },
+        "correct_answer": [
+            "B",
+            "D"
+        ]
+    },
+    {
+        "question": "110、下面哪项不是L2TP的优点?",
+        "options": {
+            "A": "能对传输的数据进行加密",
+            "B": "节约拨号费用",
+            "C": "接入方式灵活",
+            "D": "提供多种访问控制方式"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "62、接口上同时配置nat server和nat outbound，则以下哪些描述是正确的?",
+        "options": {
+            "A": "nat server处理报文的优先级低于nat outbound ",
+            "B": "nat server处理报文的优先级高于nat outbound ",
+            "C": "接口策略无法正常匹配",
+            "D": "两者互不影响"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "395、哪些不属于AAA？",
+        "options": {
+            "A": "ACL",
+            "B": "Access"
+        },
+        "correct_answer": [
+            "A",
+            "B"
+        ]
+    },
+    {
+        "question": "以下关于IP 地址的说法正确的是______。（多选）",
+        "options": {
+            "A": "A 类地址的第一个字节为0～126（127 留作他用）",
+            "B": "主机号部分二进制全为0 的IP 地址称为网络地址，用来标识一个网络的所有主机。",
+            "C": "IP 地址通常表示为点分十进制形式，例如：10.110.168.121",
+            "D": "IP 地址由两部分构成：网络号和主机号"
+        },
+        "correct_answer": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "13. 以下关于 CAS 特性说法正确的有:",
+        "options": {
+            "A": "HA 综合考虑虚拟机 CPU､内存､I/O 吞吐量等负载因素以及虚拟机对物理 主 机的亲和性 (Affinity)，动态调整业务负责的分部，提升系统可用性",
+            "B": "DRS 在服务器故障时，能够自动选择空闲服务器，并将 VM 在空闲服务器上 重启",
+            "C": "DRX 综合考虑虚拟机 CPU､内存､I/O 吞吐量等负载因素以及虚拟机对物 理 主机的亲和性 (A ffinity)，动态调整业务负责的分部，提升系统可用性",
+            "D": "V2V 支持 vmware，citrix，kvm 等多种格式虚拟机转换成 H3C CAS 的虚拟机"
+        },
+        "correct_answer": [
+            "D"
+        ]
+    },
+    {
+        "question": "8、以下哪个病毒可以破坏计算机硬件?",
+        "options": {
+            "A": "CIH病毒",
+            "B": "宏病毒",
+            "C": "冲击波病毒",
+            "D": "熊猫烧香病毒"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "30. 以下关于虚拟机在线迁移的说法正确的是",
+        "options": {
+            "A": "在线迁移主机和存储时，虚拟机的内存数据和镜像文件都是通过管理网传输 的",
+            "B": "在线迁移主机和存储时，虚拟机的内存数据是通过管理网传输的，而镜像文 件是通过存储网传输的",
+            "C": "在线迁移主机时，目的主机的虚拟机会先以暂停的方式送行，然后再复制原 虚拟机的内存数据，\n最后原虚拟机关闭，目的主机的虚拟机由暂停状态变为运 行 状态",
+            "D": "当在迁移超时时长内未完成迁移时，系统将暂停原虚拟机，以便其可以快速 完成迁移，待迁移完成后，再将该虚拟机恢复为运行状态"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "下列关于路由器特点的描述，正确的是______。\n（多选）",
+        "options": {
+            "A": "是网络层设备",
+            "B": "根据链路层信息进行路由转发",
+            "C": "提供丰富的接口类型",
+            "D": "可以支持多种路由协议"
+        },
+        "correct_answer": [
+            "A",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "question": "IPv6 站点本地地址属于______地址类型。",
+        "options": {
+            "A": "单播",
+            "B": "组播",
+            "C": "广播",
+            "D": "任播"
+        },
+        "correct_answer": [
+            "A"
+        ]
+    },
+    {
+        "question": "192. 创建快照 (包括快照策略) 时可自定义选项有哪些？",
+        "options": {
+            "A": "快照个数",
+            "B": "快照时间",
+            "C": "快照内存",
+            "D": "快照类型"
+        },
+        "correct_answer": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    {
+        "question": "两台路由器MSR-1、MSR-2 通过GigabitEthernet0/0 互连，同时两台路由器之间运行了RIPv2，现在在其中\n一台路由器MSR-1 的GigabitEthernet0/0 接口想要只发送RIP 报文而不接受RIP 协议报文，那么如下哪些实\n现方式是可行的？",
+        "options": {
+            "A": "在MSR-2 的GigabitEthernet0/0 接口配置silent-interface GigabitEthernet 0/0",
+            "B": "在MSR-1 的GigabitEthernet0/0 接口配置silent-interface GigabitEthernet 0/0",
+            "C": "在MSR-2 上配置ACL 并应用在其GigabitEthernet0/0 接口inbound 方向",
+            "D": "在MSR-1 上配置ACL 并应用在其GigabitEthernet0/0 接口inbound 方向"
+        },
+        "correct_answer": [
+            "A",
+            "D"
+        ]
+    }
+]
