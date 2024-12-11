@@ -9,6 +9,7 @@ import subprocess
 import sys
 from packaging import version  # 用于版本号比较
 from bank_GUI_2 import QuizApp  # 导入答题程序
+from mock_record import ReviewApp  # 导入 mock_record 模块
 import subprocess
 
 
@@ -18,7 +19,7 @@ class MainApp:
         self.root.title("题库选择")
         self.root.geometry("900x600")
         self.root.configure(bg="#E6F7FF")
-        self.current_version = "1.4"  # 当前版本号
+        self.current_version = "1.5"  # 当前版本号
         self.setup_ui()
         self.check_for_updates()
 
@@ -173,7 +174,7 @@ class MainApp:
         self.clear_content_frame()  # 清除之前的内容
         # 创建“进入错题回顾”按钮
         self.enter_review_button = ttk.Button(self.content_frame, text="进入错题回顾", command=self.start_review, style="TButton")
-        self.enter_review_button.pack(side=tk.BOTTOM, pady=(0, 20)) 
+        self.enter_review_button.pack(side=tk.BOTTOM, pady=(0, 20))
 
         self.content_listbox = tk.Listbox(self.content_frame, font=("Helvetica", 12))
         self.content_listbox.pack(fill="both", expand=True, padx=10, pady=10)
@@ -229,9 +230,25 @@ class MainApp:
         from mock import run_mock_exam  # 导入并运行模拟考试程序
         run_mock_exam()
 
+
     def start_review(self):
         """进入错题回顾界面"""
-        pass
+        selected_index = self.content_listbox.curselection()  # 获取选中的文件索引
+        if not selected_index:
+            messagebox.showwarning("提示", "请选择一个错题记录文件！")
+            return
+
+        selected_file = self.content_listbox.get(selected_index[0])  # 获取选中的文件名
+        file_path = os.path.join("bank/exam", selected_file)
+
+        if not os.path.exists(file_path):
+            messagebox.showerror("错误", f"文件未找到: {file_path}")
+            return
+
+        self.root.destroy()
+        review_root = tk.Tk()
+        ReviewApp(review_root, file_path)  # 传递文件路径到 ReviewApp
+        review_root.mainloop()
 
     def check_for_updates(self):
         """检查更新"""

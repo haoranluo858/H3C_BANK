@@ -1,6 +1,8 @@
 {
     "answers": [
-        null,
+        [
+            "B"
+        ],
         null,
         null,
         null,
@@ -495,6 +497,6 @@
         null,
         null
     ],
-    "current_question_index": 1,
-    "elapsed_time": 32
+    "current_question_index": 0,
+    "elapsed_time": 53
 }
